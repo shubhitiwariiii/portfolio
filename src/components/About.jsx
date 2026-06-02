@@ -69,7 +69,7 @@ export default function About() {
               <p className="text-yellow-100/70 text-lg leading-relaxed">
                 Recent highlights: <strong>ai-spend-audit</strong> (cost-analysis tooling),
                 <strong>HealthLens</strong> (medical-report summarizer built at HackDays),
-                and selection for collaborative programs (replace with your real achievements).
+                and Daily-wage tracker app - Full-stack wage and attendance management system for contractors and workers. Built for those who don't speak spreadsheet..
               </p>
 
             <motion.a

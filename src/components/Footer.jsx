@@ -4,7 +4,7 @@ import { Code2, Link2, Mail } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-black/70">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-yellow-400/50 to-transparent" />
+      <div className="h-px w-full bg-linear-to-r from-transparent via-yellow-400/50 to-transparent" />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ function Footer() {
       >
         <div className="flex gap-5">
           <a
-            href="https://github.com/shubhitiwariii"
+            href="https://github.com/shubhitiwariiii"
             target="_blank"
             rel="noopener noreferrer"
             className="text-yellow-100/70 hover:text-yellow-200 transition-colors duration-200"
@@ -24,7 +24,7 @@ function Footer() {
             <Code2 size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/shubhitiwariii"
+            href="https://www.linkedin.com/in/shubhi-tiwari-664553329/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-yellow-100/70 hover:text-yellow-200 transition-colors duration-200"
@@ -46,7 +46,7 @@ function Footer() {
         </p>
 
         <p className="text-yellow-100/45 text-xs">
-          Built with ❤️ and lots of ☕
+          Built with ❤️
         </p>
       </motion.div>
     </footer>

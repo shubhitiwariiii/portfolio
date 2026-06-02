@@ -90,7 +90,7 @@ function Contact() {
                   <Link2 size={18} />
                   <span className="text-sm">LinkedIn</span>
                 </a>
-                <a
+                {/* <a
                   href="https://leetcode.com/u/shubhiitiwari/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -98,7 +98,7 @@ function Contact() {
                 >
                   <Link2 size={18} />
                   <span className="text-sm">Leetcode</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

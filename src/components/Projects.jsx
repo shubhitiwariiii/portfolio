@@ -9,7 +9,6 @@ function Projects() {
         "Upload a medical report and get a plain-English explanation of what it says. Built for patients who don't speak doctor.",
       tech: ["React 19", "Node.js", "Firebase", "Gemini AI", "Tailwind CSS"],
       github: "https://github.com/AnubhavGitHub07/HealthLens",
-      demo: "#",
       highlights: [
         "Built at HackDays 2026",
         "AI-powered report explanation",
@@ -36,7 +35,6 @@ function Projects() {
         "Full-stack wage and attendance management system for contractors and workers.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
       github: "https://github.com/shubhitiwariiii/daily-wage-tracker",
-      demo: "#",
       highlights: [
         "JWT Authentication",
         "Attendance Management",
@@ -50,7 +48,6 @@ function Projects() {
         "Not another Siri clone. This assistant remembers past conversations and uses memory in future responses, powered by a local LLM.",
       tech: ["Python", "Scikit-learn", "Ollama Llama3", "Tkinter"],
       github: "https://github.com/shubhitiwariiii/personalized-voice-assistant",
-      demo: "#",
       highlights: [
         "Speech I/O",
         "Naive Bayes intent classification",

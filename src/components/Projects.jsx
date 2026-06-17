@@ -8,7 +8,7 @@ function Projects() {
       description:
         "Upload a medical report and get a plain-English explanation of what it says. Built for patients who don't speak doctor.",
       tech: ["React 19", "Node.js", "Firebase", "Gemini AI", "Tailwind CSS"],
-      github: "#",
+      github: "https://github.com/AnubhavGitHub07/HealthLens",
       demo: "#",
       highlights: [
         "Built at HackDays 2026",
@@ -17,17 +17,17 @@ function Projects() {
       ],
     },
     {
-      title: "Personalized Voice Assistant",
+      title: "FirstGen Guidance — AI Scholarship Platform",
       description:
-        "Not another Siri clone. This assistant remembers past conversations and uses memory in future responses, powered by a local LLM.",
-      tech: ["Python", "Scikit-learn", "Ollama Llama3", "Tkinter"],
-      github: "https://github.com/shubhitiwariii/personalized-voice-assistant",
-      demo: "#",
+        "AI-powered scholarship and career guidance for first-generation Indian students. 600M+ Indians miss scholarships they qualify for — simply because no one told them.",
+      tech: ["Next.js", "TypeScript", "Supabase", "Gemini AI", "Tailwind CSS"],
+      github: "https://github.com/shubhitiwariiii/first-gen-guidance",
+      demo: "https://first-gen-guidance.vercel.app",
       highlights: [
-        "Speech I/O",
-        "Naive Bayes intent classification",
-        "Persistent memory",
-        "Local LLM",
+        "AI scholarship finder",
+        "Peer mentor matching",
+        "Multi-step onboarding",
+        "Live on Vercel",
       ],
     },
     {
@@ -35,7 +35,7 @@ function Projects() {
       description:
         "Full-stack wage and attendance management system for contractors and workers.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-      github: "#",
+      github: "https://github.com/shubhitiwariiii/daily-wage-tracker",
       demo: "#",
       highlights: [
         "JWT Authentication",
@@ -45,13 +45,18 @@ function Projects() {
       ],
     },
     {
-      title: "ai-spend-audit — Cost Analysis Tool",
+      title: "Personalized Voice Assistant",
       description:
-        "Analyze AI cloud spend and suggest optimizations. Built with Next.js and TypeScript.",
-      tech: ["Next.js", "TypeScript", "Node.js", "Vercel"],
-      github: "#",
+        "Not another Siri clone. This assistant remembers past conversations and uses memory in future responses, powered by a local LLM.",
+      tech: ["Python", "Scikit-learn", "Ollama Llama3", "Tkinter"],
+      github: "https://github.com/shubhitiwariiii/personalized-voice-assistant",
       demo: "#",
-      highlights: ["Cost analysis", "Next.js + TS", "Practical product idea"],
+      highlights: [
+        "Speech I/O",
+        "Naive Bayes intent classification",
+        "Persistent memory",
+        "Local LLM",
+      ],
     },
   ];
 
@@ -74,7 +79,10 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="section-shell max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <section
+      id="projects"
+      className="section-shell max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -92,7 +100,8 @@ function Projects() {
         transition={{ duration: 0.5, delay: 0.1 }}
         className="text-yellow-50/75 mb-6 max-w-2xl"
       >
-        Selected work focused on building useful interfaces, practical AI, and full-stack systems.
+        Selected work focused on building useful interfaces, practical AI, and
+        full-stack systems.
       </motion.p>
 
       <motion.div
@@ -119,7 +128,9 @@ function Projects() {
                 {project.title}
               </h3>
 
-              <p className="text-yellow-50/75 mb-4 leading-relaxed">{project.description}</p>
+              <p className="text-yellow-50/75 mb-4 leading-relaxed">
+                {project.description}
+              </p>
 
               <div className="flex flex-wrap gap-2 mb-5">
                 {project.highlights.map((highlight, i) => (

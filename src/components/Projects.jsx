@@ -4,15 +4,24 @@ import { Code2, ExternalLink } from "lucide-react";
 function Projects() {
   const projects = [
     {
-      title: "HealthLens — AI Medical Report Analyzer",
+      title: "ShelfSpace — Library Discovery Platform",
       description:
-        "Upload a medical report and get a plain-English explanation of what it says. Built for patients who don't speak doctor.",
-      tech: ["React 19", "Node.js", "Firebase", "Gemini AI", "Tailwind CSS"],
-      github: "https://github.com/AnubhavGitHub07/HealthLens",
+        "Find libraries near you with real pricing, timings, and amenities — the stuff a map pin never tells you. Built for UP students tired of showing up to locked gates.",
+      tech: [
+        "Next.js 16",
+        "TypeScript",
+        "Supabase",
+        "Tailwind CSS",
+        "Leaflet",
+        "OpenStreetMap",
+      ],
+      github: "https://github.com/shubhitiwariiii/shelf-space",
+      demo: "https://shelfspacee.vercel.app",
       highlights: [
-        "Built at HackDays 2026",
-        "AI-powered report explanation",
-        "Patient-friendly medical insights",
+        "Live on Vercel",
+        "Geolocation + Haversine search",
+        "OSM data pipeline",
+        "Row Level Security",
       ],
     },
     {
@@ -30,15 +39,29 @@ function Projects() {
       ],
     },
     {
+      title: "HealthLens — AI Medical Report Analyzer",
+      description:
+        "Upload a medical report and get a plain-English explanation of what it says. Built for patients who don't speak doctor.",
+      tech: ["React 19", "Node.js", "Firebase", "Gemini AI", "Tailwind CSS"],
+      github: "https://github.com/AnubhavGitHub07/HealthLens",
+      demo: null,
+      highlights: [
+        "Built at HackDays 2026",
+        "AI-powered report explanation",
+        "Patient-friendly medical insights",
+      ],
+    },
+    {
       title: "Daily Wage Tracker — MERN Stack",
       description:
-        "Full-stack wage and attendance management system for contractors and workers.",
+        "Wage and attendance management for contractors and workers. Dual-role login, PDF report export, real-time earnings tracking — built for India's informal labor sector.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
       github: "https://github.com/shubhitiwariiii/daily-wage-tracker",
+      demo: null,
       highlights: [
-        "JWT Authentication",
-        "Attendance Management",
-        "PDF Report Generation",
+        "Dual-role JWT auth",
+        "PDF report export",
+        "Attendance management",
         "MongoDB Atlas",
       ],
     },
@@ -48,6 +71,7 @@ function Projects() {
         "Not another Siri clone. This assistant remembers past conversations and uses memory in future responses, powered by a local LLM.",
       tech: ["Python", "Scikit-learn", "Ollama Llama3", "Tkinter"],
       github: "https://github.com/shubhitiwariiii/personalized-voice-assistant",
+      demo: null,
       highlights: [
         "Speech I/O",
         "Naive Bayes intent classification",
@@ -161,15 +185,17 @@ function Projects() {
                 >
                   <Code2 size={18} />
                 </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center w-10 h-10 rounded-lg bg-black/70 text-yellow-100 hover:text-yellow-200 hover:bg-black/85 transition-colors duration-200 border border-yellow-400/15"
-                  aria-label="Live Demo"
-                >
-                  <ExternalLink size={18} />
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-10 h-10 rounded-lg bg-black/70 text-yellow-100 hover:text-yellow-200 hover:bg-black/85 transition-colors duration-200 border border-yellow-400/15"
+                    aria-label="Live Demo"
+                  >
+                    <ExternalLink size={18} />
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>

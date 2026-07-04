@@ -1,165 +1,73 @@
-# 🚀 Shubhi Tiwari Portfolio
+# 🚀 Shubhi Tiwari — Portfolio
 
-A modern, responsive, and interactive developer portfolio built to showcase my skills, projects, achievements, and professional journey in Software Development and Artificial Intelligence.
+A modern, responsive developer portfolio showcasing my projects, skills, and journey in Software Development and AI.
 
 ## 🌐 Live Demo
 
-🔗 **Portfolio Website:** https://portfolio-shubhitiwariiiis-projects.vercel.app/
-
-## 📌 About
-
-This portfolio serves as my digital presence on the web where visitors can learn about:
-
-* 👩‍💻 Who I am
-* 🛠️ Technical Skills
-* 🚀 Featured Projects
-* 📜 Certifications & Achievements
-* 📄 Resume
-* 📬 Contact Information
-
-The website is designed with a clean UI, smooth animations, and responsive layouts to provide the best user experience across all devices.
-
----
-
-## ✨ Features
-
-* Modern and responsive design
-* Smooth scrolling navigation
-* Interactive animations using Framer Motion
-* Project showcase section
-* Skills and technologies section
-* Resume download functionality
-* Contact section
-* Mobile-friendly interface
-* Fast loading and optimized performance
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* React.js
-* Vite
-* Tailwind CSS
-* Framer Motion
-
-### Development Tools
-
-* Git & GitHub
-* VS Code
-* Vercel
-
----
-
-## 📂 Project Structure
-
-```bash
-portfolio/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── sections/
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/shubhitiwariiii/portfolio.git
-```
-
-### Navigate to Project Folder
-
-```bash
-cd portfolio
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Start Development Server
-
-```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
-```
-
----
-
-## 📸 Sections Included
-
-* Home
-* About Me
-* Skills
-* Projects
-* Experience
-* Certifications
-* Contact
+🔗 **Portfolio:** https://portfolio-shubhitiwariiiis-projects.vercel.app/
 
 ---
 
 ## 🎯 Featured Projects
 
-### AI Voice Assistant
+### ShelfSpace — Library Discovery Platform
+Find libraries near you with real pricing, timings, and amenities.
+- **Live:** https://shelfspacee.vercel.app
+- **Repo:** https://github.com/shubhitiwariiii/shelf-space
+- **Stack:** Next.js 16 · TypeScript · Supabase · Tailwind CSS · Leaflet · OpenStreetMap
 
-A personalized AI assistant built using Python, Ollama, Memory System, Speech Recognition, and Text-to-Speech technologies.
+### First Gen AI Guidance — AI Career Navigator
+AI-powered scholarship and career guidance for first-generation Indian students.
+- **Live:** https://first-gen-guidance.vercel.app
+- **Repo:** https://github.com/shubhitiwariiii/first-gen-ai-guidance
+- **Stack:** Next.js · TypeScript · Google Gemini AI · Supabase · Tailwind CSS
 
-### Attendance Management System
+### HealthLens — AI Medical Report Analyzer
+Analyzes medical reports using Gemini AI. Built at HackDays 2026.
+- **Repo:** https://github.com/AnubhavGitHub07/HealthLens
+- **Stack:** React 19 · Node.js · Express.js · Google Gemini AI · Firebase
 
-A web application for tracking attendance with authentication and database integration.
-
-### Portfolio Website
-
-A modern portfolio showcasing projects, skills, and achievements.
-
----
-
-## 📈 Future Improvements
-
-* Dark/Light Theme Toggle
-* Blog Section
-* Project Filtering
-* Admin Dashboard
-* Multi-language Support
-
----
-
-## 🤝 Connect With Me
-
-### GitHub
-
-https://github.com/shubhitiwariiii
-
-### LinkedIn
-
-https://www.linkedin.com/in/shubhi-tiwari-664553329/
-
-### Email
-
-shubhitiwari0132@gmail.com
+### Daily Wage Tracker — Worker Management Platform
+Digitizes wage and attendance management for informal labor contractors.
+- **Repo:** https://github.com/shubhitiwariiii/daily-wage-tracker
+- **Stack:** Node.js · Express.js · MongoDB Atlas · REST APIs
 
 ---
 
-## 📄 License
+## 🛠️ Tech Stack
 
-This project is open-source and available under the MIT License.
+**Frontend:** React.js, Next.js, TypeScript, Tailwind CSS, Framer Motion  
+**Backend:** Node.js, Express.js, REST APIs  
+**Databases:** Supabase (PostgreSQL + RLS), MongoDB Atlas, Firebase  
+**AI/ML:** Google Gemini AI, scikit-learn, LLaMA 3 via Ollama  
+**Tools:** Git, GitHub, Vercel, Render, Leaflet, OpenStreetMap  
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+## 📌 About
+
+**Shubhi Tiwari** — B.Tech CSE (AI & ML), Galgotias College of Engineering and Technology  
+GSSoC 2026 contributor · 350+ LeetCode problems · 250-day streak
+
+---
+
+## 🤝 Connect
+
+- **GitHub:** https://github.com/shubhitiwariiii  
+- **LinkedIn:** https://www.linkedin.com/in/shubhi-tiwari-664553329/  
+- **Email:** shubhitiwari0132@gmail.com
+
+---
+
+## 🛠️ Running Locally
+
+```bash
+git clone https://github.com/shubhitiwariiii/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+---
+
+⭐ If you like this, consider giving it a star!

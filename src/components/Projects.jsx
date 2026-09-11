@@ -79,6 +79,20 @@ function Projects() {
         "Local LLM",
       ],
     },
+    {
+      title: "Dravya — Ayurvedic Blockchain Traceability Platform",
+      description:
+        "Blockchain-based traceability and quality assurance platform for the Ayurvedic herb supply chain, tracking every batch from producer to distributor. Built as a team project — led design and development of the 4 role-based dashboards (Producer, Lab, Verification Authority, Distributor).",
+      tech: ["Next.js", "TypeScript", "Blockchain", "Tailwind CSS"],
+      github: "https://github.com/AnubhavGitHub07/Dravya-Ayurvedic-Blockchain-Platform",
+      demo: null,
+      highlights: [
+        "Team project",
+        "4 role-based dashboards",
+        "RBAC-driven access control",
+        "College research project",
+      ],
+    },
   ];
 
   const containerVariants = {
